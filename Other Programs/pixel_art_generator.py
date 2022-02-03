@@ -36,10 +36,10 @@ def interpolate(start_color, end_color, factor: float):
 
 
 def generate_art(collection: str, name: str):
-    print("Generating art")
+    print("Generating image......")
 
     # Figure out where we are going to put it.
-    output_dir = os.path.join("output", collection)
+    output_dir = os.path.join("Output of pixel_Art_generator.py program", collection)
     image_path = os.path.join(output_dir, f"{name}.png")
 
     # Set size parameters.
