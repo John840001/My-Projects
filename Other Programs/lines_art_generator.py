@@ -2,8 +2,6 @@ from PIL import Image, ImageDraw, ImageChops
 import os
 import random
 import colorsys
-import argparse
-
 
 def random_point(image_size_px: int, padding: int):
     return random.randint(padding, image_size_px - padding)
